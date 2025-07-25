@@ -48,7 +48,7 @@ class WindTreeview(Tk):
         self.update()
 
         for i in self.columns:
-            if i == 'index':
+            if i == 'Индекс':
                 self.tree.heading(i, text=i)
                 self.tree.column(i, width='150', stretch=True, anchor='w')
             else:
